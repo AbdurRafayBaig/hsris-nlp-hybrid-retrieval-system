@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Assignment 3: Hybrid Semantic Retrieval & Intelligence System (HSRIS)
 
 ## Overview
@@ -32,3 +33,7 @@ The entire pipeline was built under strict base computational constraints:
 ## Results Summary
 - **Precision@5:** Exceeded benchmark semantic grouping precision on un-structured queries. 
 - **Time/Batch Curve:** Using `torch.nn.DataParallel` significantly cut latency during batch scaling arrays > 64 instances.
+=======
+# hsris-nlp-hybrid-retrieval-system
+Hybrid Semantic Retrieval &amp; Intelligence System (HSRIS) built with PyTorch, combining TF-IDF keyword search and GloVe-based semantic embeddings for intelligent customer support ticket retrieval.
+>>>>>>> e8fe1b2ce91928fa48f43aa75bd12076b8c8ab73
